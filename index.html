@@ -4,26 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Activity 2</title>
+    <style>
+        #div1 {
+            text-align: center;
+        }
+        .redText {
+            color:rgba(200, 0, 150);
+            background-color: lightgoldenrodyellow;
+            border-color: yellow;
+        }
+        /*input {
+            text-align: right;
+        }*/
+        .redText:hover {
+            color:blue;
+            
+        }
+        #btnLogin {
+            background-color: lightcoral;
+        }
+        #btnLogin:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+
+    </style>
 </head>
 <body style="background-color: lightpink;">
           <h1 style="text-align: center">Log In kana po</h1>
-        <div style="text-align: center">
+        <div style="text-align: center" id="div1">
             <div style="margin-bottom: 1rem;">
-        <Input type="text" placeholder="Username">
+        <Input type="text" placeholder="Username" class="redText">
         </div>
         <div style="text-align: center">
             <div style="margin-bottom: 1rem;">
-        <Input type="password" placeholder="Password">
+        <Input type="password" placeholder="Password" class="redText">
         </div>
         <div>
-            <button style="color:lightgreen" >
+            <button style="color:white" id="btnLogin">
                 LogIn </button>
                 <a href="./register.html">
             <button style="color: lightblue" >Register</button></a>
 
             <p>Forgot Password? Click<a href="./forgot.html"> here</a></p>
 
-            <p><a href="./Homepage.html">About Us</a></p>
+            <p><a href="./Homepage.html">About The Goat</a></p>
 
         </div>
 </body>
